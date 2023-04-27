@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>R Partner</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="./index.html">R PARTNER</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="#profile"
+                  >Profile</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="#ratings">Rating</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="mid">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./pic1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./pic2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./pic3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="mid2">
+      <div
+        class="shadow p-3 mb-5 bg-body-tertiary rounded"
+        style="width: 18rem"
+      >
+        <img src="./offer.png" class="card-img-top" alt="..." />
+        <h3>Offer for You</h3>
+      </div>
+      <div
+        class="shadow p-3 mb-5 bg-body-tertiary rounded"
+        style="width: 18rem"
+      >
+        <img src="./wallet.png" class="card-img-top" alt="..." />
+        <h3>Wallet</h3>
+      </div>
+    </div>
+    <div class="mid3">
+      <div
+        class="shadow p-3 mb-5 bg-body-tertiary rounded"
+        style="width: 18rem"
+      >
+        <img src="./coupon.png" class="card-img-top" alt="..." />
+        <h3>Coupon</h3>
+      </div>
+      <div
+        class="shadow p-3 mb-5 bg-body-tertiary rounded"
+        style="width: 18rem"
+      >
+        <img src="./literature.png" class="card-img-top" alt="..." />
+        <h3>Literature</h3>
+      </div>
+    </div>
+    <div id="profile" class="profile">
+      <h1>Profile</h1>
+      <div class="profile2">
+        <img class="pic" src="./profile.jpg" alt="" />
+        <h3>Shivam Verma</h3>
+        <p>Xyz</p>
+      </div>
+      <div class="table text-center">
+        <div class="edit">
+          <h3>
+            <span
+              ><i
+                class="fa fa-user-o"
+                style="font-size: 48px; color: red"
+              ></i></span
+            >Edit Profile
+          </h3>
+        </div>
+        <div class="Change">
+          <h3>
+            <span
+              ><i class="material-icons" style="font-size: 48px; color: red"
+                >lock</i
+              ></span
+            >Change Password
+          </h3>
+        </div>
+        <div class="logout">
+          <h3>
+            <span
+              ><i
+                class="fa fa-sign-out"
+                style="font-size: 48px; color: red"
+              ></i></span
+            >Logout
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div id="ratings" class="rating">
+      <h1>Ratings</h1>
+      <div class="img">
+        <img class="rating3" src="./ratings.jpg" alt="" />
+      </div>
+      <div class="rating2">
+        <span
+          ><i class="fa fa-star-o" style="font-size: 48px; color: red"></i
+        ></span>
+        <span
+          ><i class="fa fa-star-o" style="font-size: 48px; color: red"></i
+        ></span>
+        <span
+          ><i class="fa fa-star-o" style="font-size: 48px; color: red"></i
+        ></span>
+        <span
+          ><i class="fa fa-star-o" style="font-size: 48px; color: red"></i
+        ></span>
+        <span
+          ><i class="fa fa-star-o" style="font-size: 48px; color: red"></i
+        ></span>
+      </div>
+      <br />
+      <div class="text-center mb-3">
+        <button class="btn btn-outline-primary">Submit</button>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

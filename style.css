@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.d-block {
+  height: 50vh;
+}
+.active {
+  font-weight: 600;
+  font-size: large;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: sans-serif;
+  /* color: orangered; */
+}
+
+
+.mid2,.mid3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.shadow{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.profile2{
+   text-align: center;
+}
+h1{
+    background-color: rgb(186, 37, 37);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+.pic{
+    width: 100px;
+    border-radius: 30px;
+}
+.details{
+    text-align: center;
+    margin-top: 50px;
+}
+.rating3{
+    width: 100%;
+}
+.rating2{
+    margin-top: 30px;
+    text-align: center;
+}
